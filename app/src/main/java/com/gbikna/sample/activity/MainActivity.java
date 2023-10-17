@@ -178,7 +178,7 @@ public class MainActivity extends Activity {
                             SignupVr.imageurlb = "";
                             if(SignupVr.setData(server_response))
                             {
-                                if(!SignupVr.serialnumber.equals(Utilities.getSeri  alNumber()))
+                                if(!SignupVr.serialnumber.equals(Utilities.getSerialNumber()))
                                 {
                                     disp.setText("PLEASE CONTACT SUPPORT.");
                                     SystemClock.sleep(5000);
