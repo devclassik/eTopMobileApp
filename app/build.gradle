@@ -1,0 +1,159 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'kotlin-android'
+
+def getVersionCode() {
+    def versionFile = file('../version.properties')
+    if (versionFile.canRead()) {
+        Properties versionProps = new Properties()
+        versionProps.load(new FileInputStream(versionFile))
+        def versionCode = versionProps['VERSION_CODE'].toInteger()
+        def runTasks = gradle.startParameter.taskNames
+        if (':app:assembleDebug' in runTasks || ':app:assembleRelease' in runTasks) {
+            versionProps['VERSION_CODE'] = (++versionCode).toString()
+            versionProps.store(versionFile.newWriter(), null)
+        }
+        return versionCode
+    } else {
+        throw new GradleException("Could not find version.properties!")
+    }
+}
+
+static def getVersionName() {
+    def date = new Date()
+    def versionName = "1.02." + date.format('yyyyMMddHH')
+    return versionName
+}
+
+
+android {
+    compileSdkVersion 28
+
+    def currentVersionCode = getVersionCode()
+    def currentVersionName = getVersionName()
+
+    defaultConfig {
+        applicationId "com.gbikna.agency"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode currentVersionCode
+        versionName currentVersionName
+    }
+
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.all {
+            outputFileName = "Horizonpay_Demo_v" + versionName + ".apk"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    implementation 'com.google.android.material:material:1.2.0-alpha03'
+
+    implementation 'com.google.zxing:core:3.3.0'
+    //implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'com.jakewharton:butterknife:10.2.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.0'
+    implementation 'com.github.f0ris.sweetalert:library:1.5.1'
+
+
+    //implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.1'
+    implementation 'androidx.navigation:navigation-ui:2.3.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'androidx.drawerlayout:drawerlayout:1.1.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation "androidx.biometric:biometric:1.0.1"
+    annotationProcessor 'android.arch.lifecycle:compiler:1.1.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.13.1'
+
+
+
+
+
+
+    implementation files('libs/horizonpay_smartpossdk_V1.11.220410.jar')
+    implementation files('libs/horizon_utils_V1.9.jar')
+
+
+
+
+
+
+
+
+    // net
+    implementation 'com.squareup.okhttp3:okhttp:3.11.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+
+
+
+    //imported
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:support-annotations:25.4.0'
+    //implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    //implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation files('libs/sugar.jar')
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation files('libs/jpos.jar')
+    implementation files('libs/commons-codec-1.10.jar')
+    implementation files('libs/commons-lang3-3.11.jar')
+
+    implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.4'
+    implementation 'com.google.zxing:core:3.3.2'
+
+    //implementation files('libs/org-apache-commons-codec.jar')
+    implementation files('libs/bouncycastle.jar')
+    implementation 'com.liulishuo.filedownloader:library:1.7.6'
+    implementation 'com.squareup.okhttp3:okhttp:4.1.0'
+
+
+}

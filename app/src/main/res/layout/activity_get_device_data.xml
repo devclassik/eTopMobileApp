@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_Getdeviceno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Get SN"/>
+
+    <Button
+        android:id="@+id/btn_getCurrencyCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Currency Code"/>
+
+    <Button
+        android:id="@+id/btn_getCountryCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Country Code"/>
+
+    <Button
+        android:id="@+id/btn_setCurrencyCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Currency Code"/>
+
+    <Button
+        android:id="@+id/btn_setCountryCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Country Code"/>
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+    <TextView
+        android:id="@+id/btn_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

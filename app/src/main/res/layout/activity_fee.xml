@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gbikna.sample.gbikna.card.activity.Fee">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        app:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_gravity="center"
+            android:background="@color/light_purple"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:title="Fee"
+            app:titleTextColor="@color/dark_purple">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/textfield_bg"
+        android:paddingHorizontal="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+        <TextView
+            android:id="@+id/edit_amount"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="left|center_vertical"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#4F4F4F"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/proceed"
+        tools:layout_editor_absoluteX="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:shadowColor="#E4E4E4"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="0"
+                android:text="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="0dp"
+                android:stateListAnimator="@null"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp"
+                android:layout_marginRight="20dp" />
+
+            <Button
+                android:id="@+id/btn_3"
+                android:layout_width="0dp"
+                android:stateListAnimator="@null"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="4"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp" />
+
+            <Button
+                android:id="@+id/btn_5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="5"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp"
+                android:layout_marginRight="20dp" />
+
+            <Button
+                android:id="@+id/btn_6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="6"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp"
+                android:layout_marginRight="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp" />
+
+            <Button
+                android:id="@+id/btn_8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="8"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp"
+                android:layout_marginRight="20dp" />
+
+            <Button
+                android:id="@+id/btn_9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="9"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp"
+                android:layout_marginRight="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="CLR"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="24sp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp" />
+
+            <Button
+                android:id="@+id/btn_0"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="0"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="30sp"
+                android:layout_marginRight="20dp" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/keypad_bg"
+                android:onClick="onClick"
+                android:text="DEL"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#4F4F4F"
+                android:textSize="24sp"
+                android:layout_marginRight="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/proceed"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/green_rounded_bg"
+        android:enabled="false"
+        app:backgroundTint="@color/green"
+        android:onClick="onClick"
+        android:text="Proceed"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:id="@+id/barrier"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.4"
+        android:background="#000"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="#001E89"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

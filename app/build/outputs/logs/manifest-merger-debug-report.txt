@@ -1,0 +1,736 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:200:9-208:20
+	android:grantUriPermissions
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:204:13-47
+	android:authorities
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:202:13-60
+	android:exported
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:203:13-37
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:201:13-62
+manifest
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:1-211:12
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:1-211:12
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:1-211:12
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:1-211:12
+MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c573472ceaf335a044d02402d29d84f7\navigation-ui-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\804ee7912ae9d1217b7dacbf628f24a9\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\271e711df1c6ad0d236a16c0741b0984\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:17:1-34:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\b133648bf4f2135dd8669156b1c12f02\jetified-core-0.9.6.0\AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\87efeb48fc7199e0fbfa507dad2efc50\jetified-library-1.5.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\5aa3fd92584d003ec1dd162b43c59619\jetified-materialish-progress-1.0\AndroidManifest.xml:2:1-17:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\6813d75655df63cdc5cfdcca72948114\jetified-library-1.4.2\AndroidManifest.xml:6:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\534aa13d3e10369575da8ec78c19dde4\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\bc3da7c0068a048374259847b353f9b5\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\50202454e71ab99b8b3a8ca88a02dc6f\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\ce8050e0e9d352fb3090747e1879b463\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\436b007bac43f35274d460bd1e3216fa\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\7ba2f750d57f0178c20badeb22e215d4\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c8f32e1938e40fba6b39de3f4c21c6ce\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\4950a85e5ea3eb3aafaeaa5d8795ede1\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\fb61dd47ee5944e6a1caf592819cd632\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\23854fd13c8f9a6d8fdd4b408d3260be\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\1a94a77b3af693f422a0aa5ab5c85338\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\07fd31b3cd340949653a4d08dcca82d4\jetified-butterknife-10.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\93ead7f230dd4e970008ee97d2c75eda\jetified-butterknife-runtime-10.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\086766ede49eb34ad41660f08614b1fd\navigation-fragment-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\9a0127a4d3462a484e8a64a1c8359679\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\ca056fa1117690f78f656c6dd6e76814\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\0b133cc4b3019794aa542891a6147212\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c518a1e351af698603941c4e4ff984c2\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\80d5962c9e2b67fc6ccd15eeb301ea64\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\973ba8df4c2361663da5b501a5b4d580\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\2f53f6ceed4c8c3f1e7b730675c5e5d7\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\adea5ac240af50414b941465576e008c\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\1e6ee207698ccc027ae83c26d4e2bbf0\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\8672c3cdd94a696f9c835a599d81db2c\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\a82e576a886629cb7c48b625b08c642e\navigation-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\a96db1c09592b3eac3809e6232e7ff83\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\2c962e8c4bec7236a1a3b2cb80e634ed\navigation-common-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\4e3cc71c27cd9a8993da721e8b8a1b40\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\f771bbe176e29cafe40301eef0dca964\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\da9df3ed0ab0a6889f64d873eb0d39b6\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\db1e18896aac91e0d750d8211cb3b216\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\af905acd97cee8bb5e80ddad50c82771\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\f862863021c698cad14b86b2bcdb6e8a\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\56ed1a95d48b1330effa69e03d70f978\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\651b838fa38d6e1cc605b17285bf068c\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\4ef28061d58bfc0a8f1738a57cc2ed87\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\3df7916707c02274a88bd94a53822fea\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\d633b5d031e6bed10e29fe002ea06931\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\7b7462ab6117a3c91abe31516ed37276\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\eef1164b62ab63d55576d3cae425bec0\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\2985f82d0183465305b9318a457c061c\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\676bbb9979dece06554b64b569b7ce0f\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\054d2afea6652aa5bc754bbd7d22ff9c\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e909a834cc1130d695d707850a4c0b06\jetified-QRGenearator-1.0.4\AndroidManifest.xml:2:1-16:12
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:2:1-18:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\1dc71bbca5d42db3684d8bf668e44cd8\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:1-211:12
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:1-211:12
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:1-211:12
+	package
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:1-211:12
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:1-211:12
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:6:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.CLOUDPOS_EMV
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.CLOUDPOS_MSR
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.CLOUDPOS_PRINTER
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.CLOUDPOS_LED
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:11:22-68
+uses-permission#android.permission.CLOUDPOS_PINPAD
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.CLOUDPOS_PIN_GET_PIN_BLOCK
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:13:5-85
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:13:22-82
+uses-permission#android.permission.CLOUDPOS_PIN_MAC
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.CLOUDPOS_PIN_ENCRYPT_DATA
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:15:5-84
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:15:22-81
+uses-permission#android.permission.CLOUDPOS_PIN_UPDATE_USER_KEY
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:16:5-87
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:16:22-84
+uses-permission#android.permission.CLOUDPOS_PIN_UPDATE_MASTER_KEY
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:17:5-89
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:17:22-86
+uses-permission#android.permission.CLOUDPOS_SAFE_MODULE_READONLY
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:18:5-88
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:18:22-85
+uses-permission#android.permission.CLOUDPOS_SAFE_MODULE
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:20:5-67
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:20:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CLOUDPOS_SMARTCARD
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:22:5-77
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:22:22-74
+uses-permission#android.permission.CLOUDPOS_CONTACTLESS_CARD
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:23:5-84
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:23:22-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:24:5-80
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:24:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:25:5-81
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e909a834cc1130d695d707850a4c0b06\jetified-QRGenearator-1.0.4\AndroidManifest.xml:11:5-81
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e909a834cc1130d695d707850a4c0b06\jetified-QRGenearator-1.0.4\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:29:5-65
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:29:22-62
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:30:22-78
+application
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:32:5-209:19
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\804ee7912ae9d1217b7dacbf628f24a9\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\804ee7912ae9d1217b7dacbf628f24a9\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\271e711df1c6ad0d236a16c0741b0984\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\271e711df1c6ad0d236a16c0741b0984\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:27:5-32:19
+MERGED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:27:5-32:19
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\b133648bf4f2135dd8669156b1c12f02\jetified-core-0.9.6.0\AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\b133648bf4f2135dd8669156b1c12f02\jetified-core-0.9.6.0\AndroidManifest.xml:13:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\87efeb48fc7199e0fbfa507dad2efc50\jetified-library-1.5.1\AndroidManifest.xml:11:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\87efeb48fc7199e0fbfa507dad2efc50\jetified-library-1.5.1\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\5aa3fd92584d003ec1dd162b43c59619\jetified-materialish-progress-1.0\AndroidManifest.xml:11:5-15:19
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\5aa3fd92584d003ec1dd162b43c59619\jetified-materialish-progress-1.0\AndroidManifest.xml:11:5-15:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\9a0127a4d3462a484e8a64a1c8359679\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\9a0127a4d3462a484e8a64a1c8359679\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\da9df3ed0ab0a6889f64d873eb0d39b6\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\da9df3ed0ab0a6889f64d873eb0d39b6\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\db1e18896aac91e0d750d8211cb3b216\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\db1e18896aac91e0d750d8211cb3b216\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e909a834cc1130d695d707850a4c0b06\jetified-QRGenearator-1.0.4\AndroidManifest.xml:13:5-14:19
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e909a834cc1130d695d707850a4c0b06\jetified-QRGenearator-1.0.4\AndroidManifest.xml:13:5-14:19
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:11:5-16:19
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:11:5-16:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\da9df3ed0ab0a6889f64d873eb0d39b6\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:39:9-35
+	android:label
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:37:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:35:9-44
+	tools:ignore
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:41:9-48
+	android:roundIcon
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:38:9-43
+	android:icon
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:36:9-38
+		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\5aa3fd92584d003ec1dd162b43c59619\jetified-materialish-progress-1.0\AndroidManifest.xml:13:9-45
+	android:allowBackup
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:34:9-35
+	android:theme
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:40:9-48
+	tools:replace
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:42:9-37
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:33:9-38
+activity#com.gbikna.sample.etop.uploads.BusinessUpload
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:43:9-74
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:43:19-62
+activity#com.gbikna.sample.etop.uploads.PersonalUpload
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:44:9-65
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:44:19-62
+activity#com.gbikna.sample.etop.edit.EditBank
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:45:9-56
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:45:19-53
+activity#com.gbikna.sample.etop.edit.EditBusiness
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:46:9-60
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:46:19-57
+activity#com.gbikna.sample.etop.edit.EditPersonalInfo
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:47:9-64
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:47:19-61
+activity#com.gbikna.sample.etop.Security
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:48:9-51
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:48:19-48
+activity#com.gbikna.sample.etop.MyAccounts
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:49:9-53
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:49:19-50
+activity#com.gbikna.sample.etop.WalletExport
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:50:9-55
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:50:19-52
+activity#com.gbikna.sample.etop.EodSummary
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:51:9-53
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:51:19-50
+activity#com.gbikna.sample.etop.More
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:52:9-47
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:52:19-44
+activity#com.gbikna.sample.etop.BuyTerminal
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:53:9-54
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:53:19-51
+activity#com.gbikna.sample.etop.Messages
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:54:9-51
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:54:19-48
+activity#com.gbikna.sample.etop.bills.PayTv
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:55:9-54
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:55:19-51
+activity#com.gbikna.sample.etop.bills.Disco
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:56:9-54
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:56:19-51
+activity#com.gbikna.sample.etop.bills.Data
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:57:9-53
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:57:19-50
+activity#com.gbikna.sample.etop.bills.Vtu
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:58:9-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:58:19-49
+activity#com.gbikna.sample.etop.ChangePin
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:59:9-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:59:19-49
+activity#com.gbikna.sample.etop.wallet.Activities
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:60:9-60
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:60:19-57
+activity#com.gbikna.sample.etop.LoadWallet
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:61:9-53
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:61:19-50
+activity#com.gbikna.sample.etop.ChangePassword
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:62:9-57
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:62:19-54
+activity#com.gbikna.sample.etop.RecoverySecond
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:63:9-57
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:63:19-54
+activity#com.gbikna.sample.etop.RecoverPassword
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:64:9-58
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:64:19-55
+activity#com.gbikna.sample.etop.Setpassword
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:65:9-54
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:65:19-51
+activity#com.gbikna.sample.etop.BankInfo
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:66:9-51
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:66:19-48
+activity#com.gbikna.sample.etop.Recover
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:67:9-70:67
+	android:label
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:69:13-59
+	android:theme
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:70:13-64
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:68:13-41
+activity#com.gbikna.sample.etop.Login
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:89:9-100:20
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:91:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:90:13-39
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:92:13-99:29
+category#android.intent.category.HOME
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:93:17-73
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:93:27-70
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:94:17-76
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:94:27-73
+action#android.intent.action.MAIN
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:96:17-69
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:96:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:98:17-77
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:98:27-74
+activity#com.gbikna.sample.activity.MainActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:101:9-59
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:101:19-56
+activity#com.gbikna.sample.etop.Profile
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:114:9-50
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:114:19-47
+activity#com.gbikna.sample.etop.UploadImages
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:115:9-55
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:115:19-52
+activity#com.gbikna.sample.etop.BussinessInformation
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:116:9-63
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:116:19-60
+activity#com.gbikna.sample.etop.PersonalInformation
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:117:9-62
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:117:19-59
+activity#com.gbikna.sample.etop.Terms
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:118:9-48
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:118:19-45
+activity#com.gbikna.sample.etop.AmountInput
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:119:9-54
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:119:19-51
+activity#com.gbikna.sample.etop.TransactionHistory
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:120:9-61
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:120:19-58
+activity#com.gbikna.sample.etop.TransactionDetails
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:121:9-61
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:121:19-58
+activity#com.gbikna.sample.etop.BillsPayment
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:122:9-55
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:122:19-52
+activity#com.gbikna.sample.etop.Transfer
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:123:9-51
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:123:19-48
+activity#com.gbikna.sample.etop.Purchase
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:124:9-51
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:124:19-48
+activity#com.gbikna.sample.etop.Dashboard
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:125:9-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:125:19-49
+activity#com.gbikna.sample.gbikna.Logout
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:126:9-51
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:126:19-48
+activity#com.gbikna.sample.gbikna.card.activity.Reports
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:127:9-66
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:127:19-63
+activity#com.gbikna.sample.gbikna.card.activity.Sync
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:128:9-63
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:128:19-60
+activity#com.gbikna.sample.gbikna.card.activity.PacketProcessActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:129:9-131:40
+	android:noHistory
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:131:13-37
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:130:13-71
+activity#com.gbikna.sample.gbikna.TransactionDetails
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:132:9-134:39
+	android:label
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:134:13-36
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:133:13-54
+activity#com.gbikna.sample.gbikna.card.activity.Fee
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:135:9-137:35
+	android:label
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:137:13-32
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:136:13-53
+activity#com.gbikna.sample.gbikna.util.update.DemoActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:138:9-140:44
+	android:label
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:140:13-41
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:139:13-60
+activity#com.gbikna.sample.gbikna.card.activity.AccountType
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:141:9-143:48
+	android:label
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:143:13-45
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:142:13-61
+activity#com.gbikna.sample.gbikna.card.activity.AmountInputActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:144:9-146:38
+	android:label
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:146:13-35
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:145:13-69
+activity#com.gbikna.sample.gbikna.card.activity.SearchCardActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:147:9-77
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:147:19-74
+activity#com.gbikna.sample.activity.CpuCardActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:148:9-150:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:150:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:149:13-53
+activity#com.gbikna.sample.activity.M1CardActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:151:9-153:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:153:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:152:13-52
+activity#com.gbikna.sample.activity.CardReaderActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:154:9-156:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:156:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:155:13-56
+activity#com.gbikna.sample.activity.EmvActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:157:9-159:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:159:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:158:13-49
+activity#com.gbikna.sample.activity.SysActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:160:9-162:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:162:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:161:13-49
+activity#com.gbikna.sample.activity.LedActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:163:9-165:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:165:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:164:13-49
+activity#com.gbikna.sample.activity.PrintActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:166:9-168:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:168:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:167:13-51
+activity#com.gbikna.sample.activity.DeviceInfoActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:169:9-171:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:171:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:170:13-56
+activity#com.gbikna.sample.activity.BeepActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:172:9-174:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:174:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:173:13-50
+activity#com.gbikna.sample.activity.DukptActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:175:9-177:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:177:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:176:13-51
+activity#com.gbikna.sample.activity.IcCardActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:178:9-180:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:180:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:179:13-52
+activity#com.gbikna.sample.activity.AidManagerActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:181:9-183:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:183:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:182:13-56
+activity#com.gbikna.sample.activity.CapkManagerActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:184:9-186:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:186:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:185:13-57
+activity#com.gbikna.sample.activity.ScannerActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:187:9-189:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:189:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:188:13-53
+activity#com.gbikna.sample.activity.SignActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:190:9-192:53
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:192:13-50
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:191:13-50
+activity#com.gbikna.sample.activity.PinPad3DesActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:193:9-195:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:195:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:194:13-56
+activity#com.gbikna.sample.activity.PressurePrintActivity
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:196:9-198:55
+	android:screenOrientation
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:198:13-52
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:197:13-59
+uses-sdk
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c573472ceaf335a044d02402d29d84f7\navigation-ui-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c573472ceaf335a044d02402d29d84f7\navigation-ui-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\804ee7912ae9d1217b7dacbf628f24a9\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\804ee7912ae9d1217b7dacbf628f24a9\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\271e711df1c6ad0d236a16c0741b0984\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\271e711df1c6ad0d236a16c0741b0984\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\b133648bf4f2135dd8669156b1c12f02\jetified-core-0.9.6.0\AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\b133648bf4f2135dd8669156b1c12f02\jetified-core-0.9.6.0\AndroidManifest.xml:8:5-11:75
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\87efeb48fc7199e0fbfa507dad2efc50\jetified-library-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\87efeb48fc7199e0fbfa507dad2efc50\jetified-library-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\5aa3fd92584d003ec1dd162b43c59619\jetified-materialish-progress-1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\5aa3fd92584d003ec1dd162b43c59619\jetified-materialish-progress-1.0\AndroidManifest.xml:7:5-9:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\6813d75655df63cdc5cfdcca72948114\jetified-library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\6813d75655df63cdc5cfdcca72948114\jetified-library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\534aa13d3e10369575da8ec78c19dde4\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\534aa13d3e10369575da8ec78c19dde4\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\bc3da7c0068a048374259847b353f9b5\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\bc3da7c0068a048374259847b353f9b5\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\50202454e71ab99b8b3a8ca88a02dc6f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\50202454e71ab99b8b3a8ca88a02dc6f\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\ce8050e0e9d352fb3090747e1879b463\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\ce8050e0e9d352fb3090747e1879b463\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\436b007bac43f35274d460bd1e3216fa\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\436b007bac43f35274d460bd1e3216fa\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\7ba2f750d57f0178c20badeb22e215d4\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\7ba2f750d57f0178c20badeb22e215d4\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c8f32e1938e40fba6b39de3f4c21c6ce\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c8f32e1938e40fba6b39de3f4c21c6ce\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\4950a85e5ea3eb3aafaeaa5d8795ede1\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\4950a85e5ea3eb3aafaeaa5d8795ede1\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\fb61dd47ee5944e6a1caf592819cd632\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\fb61dd47ee5944e6a1caf592819cd632\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\23854fd13c8f9a6d8fdd4b408d3260be\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\23854fd13c8f9a6d8fdd4b408d3260be\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\1a94a77b3af693f422a0aa5ab5c85338\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\1a94a77b3af693f422a0aa5ab5c85338\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\07fd31b3cd340949653a4d08dcca82d4\jetified-butterknife-10.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\07fd31b3cd340949653a4d08dcca82d4\jetified-butterknife-10.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\93ead7f230dd4e970008ee97d2c75eda\jetified-butterknife-runtime-10.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\93ead7f230dd4e970008ee97d2c75eda\jetified-butterknife-runtime-10.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\086766ede49eb34ad41660f08614b1fd\navigation-fragment-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\086766ede49eb34ad41660f08614b1fd\navigation-fragment-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\9a0127a4d3462a484e8a64a1c8359679\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\9a0127a4d3462a484e8a64a1c8359679\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\ca056fa1117690f78f656c6dd6e76814\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\ca056fa1117690f78f656c6dd6e76814\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\0b133cc4b3019794aa542891a6147212\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\0b133cc4b3019794aa542891a6147212\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c518a1e351af698603941c4e4ff984c2\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c518a1e351af698603941c4e4ff984c2\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\80d5962c9e2b67fc6ccd15eeb301ea64\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\80d5962c9e2b67fc6ccd15eeb301ea64\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\973ba8df4c2361663da5b501a5b4d580\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\973ba8df4c2361663da5b501a5b4d580\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\2f53f6ceed4c8c3f1e7b730675c5e5d7\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\2f53f6ceed4c8c3f1e7b730675c5e5d7\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\adea5ac240af50414b941465576e008c\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\adea5ac240af50414b941465576e008c\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\1e6ee207698ccc027ae83c26d4e2bbf0\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\1e6ee207698ccc027ae83c26d4e2bbf0\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\8672c3cdd94a696f9c835a599d81db2c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\8672c3cdd94a696f9c835a599d81db2c\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\a82e576a886629cb7c48b625b08c642e\navigation-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\a82e576a886629cb7c48b625b08c642e\navigation-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\a96db1c09592b3eac3809e6232e7ff83\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\a96db1c09592b3eac3809e6232e7ff83\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\2c962e8c4bec7236a1a3b2cb80e634ed\navigation-common-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\2c962e8c4bec7236a1a3b2cb80e634ed\navigation-common-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\4e3cc71c27cd9a8993da721e8b8a1b40\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\4e3cc71c27cd9a8993da721e8b8a1b40\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\f771bbe176e29cafe40301eef0dca964\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\f771bbe176e29cafe40301eef0dca964\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\da9df3ed0ab0a6889f64d873eb0d39b6\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\da9df3ed0ab0a6889f64d873eb0d39b6\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\db1e18896aac91e0d750d8211cb3b216\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\db1e18896aac91e0d750d8211cb3b216\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\af905acd97cee8bb5e80ddad50c82771\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\af905acd97cee8bb5e80ddad50c82771\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\f862863021c698cad14b86b2bcdb6e8a\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\f862863021c698cad14b86b2bcdb6e8a\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\56ed1a95d48b1330effa69e03d70f978\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\56ed1a95d48b1330effa69e03d70f978\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\651b838fa38d6e1cc605b17285bf068c\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\651b838fa38d6e1cc605b17285bf068c\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\4ef28061d58bfc0a8f1738a57cc2ed87\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\4ef28061d58bfc0a8f1738a57cc2ed87\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\3df7916707c02274a88bd94a53822fea\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\3df7916707c02274a88bd94a53822fea\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\d633b5d031e6bed10e29fe002ea06931\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\d633b5d031e6bed10e29fe002ea06931\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\7b7462ab6117a3c91abe31516ed37276\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\7b7462ab6117a3c91abe31516ed37276\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\eef1164b62ab63d55576d3cae425bec0\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\eef1164b62ab63d55576d3cae425bec0\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\2985f82d0183465305b9318a457c061c\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\2985f82d0183465305b9318a457c061c\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\676bbb9979dece06554b64b569b7ce0f\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\676bbb9979dece06554b64b569b7ce0f\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\054d2afea6652aa5bc754bbd7d22ff9c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\054d2afea6652aa5bc754bbd7d22ff9c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e909a834cc1130d695d707850a4c0b06\jetified-QRGenearator-1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [androidmads.library.qrgenearator:QRGenearator:1.0.4] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e909a834cc1130d695d707850a4c0b06\jetified-QRGenearator-1.0.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:6:5-43
+MERGED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:6:5-43
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\1dc71bbca5d42db3684d8bf668e44cd8\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\1dc71bbca5d42db3684d8bf668e44cd8\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\b133648bf4f2135dd8669156b1c12f02\jetified-core-0.9.6.0\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:205:13-207:58
+	android:resource
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:207:17-55
+	android:name
+		ADDED from C:\Users\aloma\OneDrive\Documents\Android NativeApp\Horizonpay\app\src\main\AndroidManifest.xml:206:17-67
+uses-permission#android.permission.USE_BIOMETRIC
+ADDED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:24:5-72
+	android:name
+		ADDED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:24:22-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:25:22-71
+activity#androidx.biometric.DeviceCredentialHandlerActivity
+ADDED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:28:9-31:67
+	android:exported
+		ADDED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:31:13-64
+	android:name
+		ADDED from [androidx.biometric:biometric:1.0.1] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\e4d1ad224a17fbe19f04d105c392661e\biometric-1.0.1\AndroidManifest.xml:29:13-78
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\51f7cfac01a7ce2a320e30e7fc28f288\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:9:22-74
+service#com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:12:9-118
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:12:18-115
+service#com.liulishuo.filedownloader.services.FileDownloadService$SeparateProcessService
+ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:13:9-15:49
+	android:process
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:15:13-46
+	android:name
+		ADDED from [com.liulishuo.filedownloader:library:1.7.6] C:\Users\aloma\.gradle\caches\transforms-2\files-2.1\c5a9a20d4e9d9e851e3afb53bef7c500\jetified-library-1.7.6\AndroidManifest.xml:14:13-108

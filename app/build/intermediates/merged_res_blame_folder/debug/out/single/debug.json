@@ -1,0 +1,1430 @@
+[
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_transaction_history.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_transaction_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_upload_images.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_upload_images.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_serial_port.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_serial_port.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_business_upload.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_business_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_do_emv.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_do_emv.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_aid.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_aid.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_wallet_mask.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_wallet_mask.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_reset.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_reset.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_eye.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\raw_f_capk_idx.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\raw\\f_capk_idx"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_6.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_6.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tickt.bmp.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\tickt.bmp"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_7.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_7.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_extralight.ttf.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\font\\poppins_extralight.ttf"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\raw_f_capk_dat.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\raw\\f_capk_dat"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_user.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_add_user.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_confirmation_dialog.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\confirmation_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_on_key_down.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_on_key_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_details_dark.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\details_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_password.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\password.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_add_user.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_add_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_strikeout_.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\strikeout_.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logon_shape.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\logon_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pinpad.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_pinpad.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_get_device_data.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_get_device_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_wallet_mask.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_wallet_mask.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_apitest.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_apitest.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_password_def.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-mdpi\\password_def.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_thin.ttf.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\font\\poppins_thin.ttf"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_activity.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_print.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_unionpay_logo_old.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\unionpay_logo_old.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_topup.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_topup.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_semibold.ttf.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\font\\poppins_semibold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emv.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_emv.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_maganalogo.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\maganalogo.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_logout.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_vtu.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_vtu.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_circle.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_add_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_messages.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\messages.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black.bmp.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\black.bmp"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_internet.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_internet.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pin.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_activity.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_header_logo.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\header_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_possettle.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\possettle.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_logon.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\logon.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_change_device.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_change_device.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_keyboard.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_check.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_password.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-mdpi\\password.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dukpt.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_dukpt.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_cards.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\fragment_cards.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_change_device.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_change_device.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_change_device.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_change_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_light.ttf.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\font\\poppins_light.ttf"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_sync.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_sync.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_change_device.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_change_device.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_ring.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\profile_ring.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_set.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-mdpi\\set.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_tax.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_tax.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_input.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\dialog_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_close.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_wallet_mask.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_wallet_mask.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_title.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\title.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_dark_blue_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\button_dark_blue_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_5.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_5.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_black.ttf.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\font\\poppins_black.ttf"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_sync.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_sync.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_8.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_8.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_rounded_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\green_rounded_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\xml_symbols.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\xml\\symbols.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_selector.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_item.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\profile_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_pin.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_change_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_menu.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pass.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_pass.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_admin.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\raw_beepvol.mp3.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\raw\\beepvol.mp3"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_activity.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_activity.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_textfield.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\textfield.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_foot.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-mdpi\\foot.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_pin_drawer.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_pin_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_img.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_img.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_user.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_add_user.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\raw_f_tmaid_dat.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\raw\\f_tmaid_dat"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_random_keyboard.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\random_keyboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_qr.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_qr.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_strikeout.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\strikeout.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\rect.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_upload.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\image_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fund_self_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\fund_self_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cashin.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_cashin.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_transfer.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_transfer.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_baseline_menu_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_list_item.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\menu_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bussiness_information.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_bussiness_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_transaction_history.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_transaction_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_service_data.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_service_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_disco.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_disco.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_open_account.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_open_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_scan_light.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-xhdpi\\scan_light.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bank_info.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_bank_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pin.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_btn_fm_overflow_disable.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\btn_fm_overflow_disable.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pin_drawer.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_pin_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jgg.bmp.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\jgg.bmp"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_3.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_3.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_settle.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\settle.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_wallet_mask.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_wallet_mask.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_slant_up.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_slant_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_textfield_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\textfield_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\raw_beep.ogg.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_sync.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_sync.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_password_selector.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\set_password_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bvn.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_bvn.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pin.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_add_user.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_add_user.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_button.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\custom_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_sync.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_sync.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_receipt.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_receipt.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ticket.bmp.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ticket.bmp"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_history_item.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\history_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_capk.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_capk.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\anim_popup_in.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\anim\\popup_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flashlight_turn_on.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\flashlight_turn_on.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pic.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_pic.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\grid.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_qr.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_qr.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_reset.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_reset.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_medium.ttf.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\font\\poppins_medium.ttf"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_que.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\que.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_regular.ttf.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\font\\poppins_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_btn_fm_overflow.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\btn_fm_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_personal_info.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_edit_personal_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_deposit.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_deposit.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_4.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_4.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_pin_drawer.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pin_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\set.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_forward_arrow.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_forward_arrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_image_picker_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\image_picker_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_9.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_9.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transaction_success_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\transaction_success_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_sync.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_sync.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_pin.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_activity.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_slants.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_slants.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_unipay.bmp.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\unipay.bmp"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_bank.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_edit_bank.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_wallet_mask.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_wallet_mask.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pin_pad_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\pin_pad_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_pin_code.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_pin_code.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pin_drawer.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_pin_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_action_example.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_action_example.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_edit_text.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\bg_edit_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_grey.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\rounded_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_set_tranfunction.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\set_tranfunction.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_error_hover.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\button_error_hover.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_backspace_dark.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_backspace_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cowry.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_cowry.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_flashlight_turn_off.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\flashlight_turn_off.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cowrycash.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_cowrycash.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bills_payment.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_bills_payment.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_user.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_add_user.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_activity_drawer.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_activity_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_error_state.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\button_error_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_reset.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_reset.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transaction_history_detail_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\transaction_history_detail_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_tax.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_tax.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_italic.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\italic.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_purchase.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_purchase.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_terms.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_terms.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wallet_balance_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\wallet_balance_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_personal_information.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_personal_information.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_purchase.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_purchase.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-mdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_activities.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_activities.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_with_button.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_with_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_change_device.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_change_device.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dash_item_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\dash_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bills.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_bills.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_info_24.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_baseline_info_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_activity.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_reset.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_reset.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_reset.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_reset.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_qr_rounded_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\qr_rounded_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_pin.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_underline.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\underline.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_reset.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_reset.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_header_logo.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\header_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fee.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_fee.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reports.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_reports.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_loadkey.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_loadkey.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transaction_item_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\transaction_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recover.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_recover.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_keypad_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\keypad_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_unionpay_logo.bmp.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\unionpay_logo.bmp"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_0.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_0.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_option_item.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\option_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_pic.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_pic.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_change_device.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_change_device.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_capture.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_capture.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\anim_popup_out.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\anim\\popup_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_menu_selector.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\btn_menu_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_backspace_black_24dp.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_backspace_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_header_logo.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\header_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_param_setting.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\param_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_appsel.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_appsel.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_header_logo.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\header_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_grid_item_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\grid_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bluetooth.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_bold.ttf.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\font\\poppins_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_usertype.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\usertype.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_pin.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_pin.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_password.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_change_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pic.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_pic.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_business.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_edit_business.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nav_key_test.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_nav_key_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_security.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_security.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pic.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_pic.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_amount_input.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_amount_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_pic.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_pic.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_recover.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\content_recover.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_password_def.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\password_def.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dan.jpg.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\dan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_led.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_led.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_dropdown_mode.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\dropdown_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_data.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_set_tranfunction.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-mdpi\\set_tranfunction.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cancel.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_2.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_2.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_showsn.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_showsn.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_personal_upload.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_personal_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_wallet_mask.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_wallet_mask.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_pwd.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\shape_pwd.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_data.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_transaction_history_item.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\transaction_history_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_sync.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_sync.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pressure.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_pressure.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_reset.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_reset.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_trans_detail_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\trans_detail_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_color_cursor.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\color_cursor.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_more.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_foot.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\foot.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_account_name_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\account_name_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dashboard.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_card_confirm.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_card_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_name.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-hdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\button_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_title.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable-mdpi\\title.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_pin_drawer.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_pin_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_amtget.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\amtget.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_logout.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_user.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_add_user.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_search_card.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_search_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_eod_summary.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_eod_summary.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_airtime.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_airtime.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\red_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hcp.bmp.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\hcp.bmp"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\raw_f_tmaid_idx.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\raw\\f_tmaid_idx"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_refresh.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_refresh.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calendar.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\xml_pref_set.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\xml\\pref_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_change_device.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_change_device.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_enc_and_dec.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_enc_and_dec.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pin_drawer.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_pin_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bold_.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\bold_.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_user.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_add_user.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_loader_dialog.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\loader_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\white_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_withdraw.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_withdraw.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings_scanner.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_settings_scanner.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_header_logo.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\header_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_setpassword.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_setpassword.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_pin_drawer.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_pin_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_italic_.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\italic_.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_beep.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_beep.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_wallet_mask.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_wallet_mask.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recovery_second.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_recovery_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_activity.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_activity.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_blue_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\button_blue_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_transaction_details.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_transaction_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_account_type.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_account_type.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_pic.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_pic.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_load_wallet.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_load_wallet.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_pin.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_pin.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_pic.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_pic.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_states.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\states.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_transfer.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_transfer.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_p.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\p.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_header_logo.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\header_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_fingerprint.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_fingerprint.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pinpad_3des.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_pinpad_3des.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_rounded_top_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\white_rounded_top_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_transaction_failed_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\transaction_failed_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_remoteupdate.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\remoteupdate.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_messages.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_messages.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_textfield_selector.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\textfield_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_number_1.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-hdpi\\number_1.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_top_bar.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\main_top_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_rounded_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\red_rounded_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_sync.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_sync.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\font_poppins_extrabold.ttf.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\font\\poppins_extrabold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cowry.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_cowry.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_underline_.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\underline_.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_buy_terminal.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_buy_terminal.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_details_blue.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\details_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_dropdown_button.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\dropdown_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_demo.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\demo.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_error_normal.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\button_error_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_header_logo.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\header_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_accounts.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_my_accounts.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bold.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\bold.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_item.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recover_password.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_recover_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ac.bmp.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ac.bmp"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_qrcode.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_qrcode.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signature.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_signature.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_wallet_export.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_wallet_export.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sync.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_sync.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_rounded_bg.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\white_rounded_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_elecsign.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_elecsign.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_history_drawer.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\drawable\\ic_history_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_packet_process.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_packet_process.xml"
+    },
+    {
+        "merged": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_prmacqkey.xml.flat",
+        "source": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\src\\main\\res\\layout\\activity_prmacqkey.xml"
+    }
+]

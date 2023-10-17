@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/btn_key_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setKeyBackState" />
+
+    <CheckBox
+        android:id="@+id/btn_key_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setKeyHomeState" />
+
+    <CheckBox
+        android:id="@+id/btn_key_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setKeyStatusbarState" />
+
+    <CheckBox
+        android:id="@+id/btn_key_multy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="setKeyMulty" />
+    <Button
+        android:id="@+id/btn_hide_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide Navbar"/>
+
+</LinearLayout>

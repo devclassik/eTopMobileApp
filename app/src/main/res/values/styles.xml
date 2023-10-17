@@ -1,0 +1,74 @@
+<resources>
+	<!-- Base application theme. -->
+    <style name="Theme.Magana." parent="@android:style/Theme.Material.Light">
+        <!--    <item name="android:colorPrimaryDark">@color/colorAccent</item>
+                <item name="android:colorPrimary">@color/colorAccent</item>
+                <item name="android:colorAccent">@color/colorAccent</item>
+                <item name="android:navigationBarColor">#D01839</item> -->
+        <item name="android:actionBarSize">70dp</item>
+        <item name="android:actionBarStyle">@style/myActionBarStyle</item>
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialCalendar" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <!-- just override the colors used in the default style -->
+        <item name="colorOnPrimary">#001e33</item>
+        <item name="colorPrimary">#4A5297</item>
+    </style>
+
+    <style name="myActionBarStyle" parent="android:Widget.Material.ActionBar">
+        <item name="android:background">#D01839</item>
+        <item name="android:titleTextStyle">@style/myActionBarTextStyle</item>
+    </style>
+
+    <style name="myActionBarTextStyle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="MyDialog" parent="@android:style/Theme.Holo.Dialog">
+        <!-- 是否有边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!--是否在悬浮Activity之上  -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--阴影  -->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 还可以加入一些弹出和退出的动画 (lan)-->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_out</item>
+    </style>
+	
+	
+	
+	
+	
+	
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog.Alert" />
+
+    <style name="doneBtn">
+        <item name="android:background">@drawable/button_error_state</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_margin">2dip</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:textColor">@color/white</item>
+    </style>-->
+
+</resources>

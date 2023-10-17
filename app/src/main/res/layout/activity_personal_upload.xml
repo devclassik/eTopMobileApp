@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_purple"
+    tools:context=".etop.uploads.PersonalUpload">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/qrcode"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:gravity="left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_marginVertical="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uplaod Personal Picture"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/secondary"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scrollbarStyle="outsideOverlay"
+            android:paddingHorizontal="25dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginVertical="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profile photo"
+                        android:textColor="@color/secondary"
+                        android:textSize="12sp"/>
+                    <LinearLayout
+                        android:background="@drawable/image_upload"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_height="150dp">
+                        <ImageView
+                            android:id="@+id/imageviewa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_img"/>
+                        <TextView
+                            android:id="@+id/txtimage1"
+                            android:layout_marginVertical="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Snap Picture"
+                            android:textColor="@color/secondary"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_bg"
+            app:backgroundTint="@null"
+            android:padding="8dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="UPLOAD"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

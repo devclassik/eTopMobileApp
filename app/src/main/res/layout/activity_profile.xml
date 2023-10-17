@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".etop.Profile">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        app:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_gravity="center"
+            android:background="@color/light_purple"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:title="Profile"
+            app:titleTextColor="@color/dark_purple">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:isScrollContainer="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_gravity="start"
+            android:gravity="center|top"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="50dp">
+            <ImageView
+                android:id="@+id/qrcode1"
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:src="@drawable/demo"/>
+
+            <ImageView
+                android:id="@+id/qrcode2"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="120dp"
+                android:src="@drawable/demo"/>
+            <TextView
+                android:id="@+id/heading"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DETAILS"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bussiness Information"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"/>
+                <LinearLayout
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:background="@drawable/profile_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Business Addr: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/businessaddress1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Business Name: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/businessname1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Business Type: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/businesstype1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CAC: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/cacnumber1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="LANDMARK: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/landmark1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Personal Information"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"/>
+                <LinearLayout
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:background="@drawable/profile_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="First Name: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/firstname1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Middle Name: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/middlename1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Last Name: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/lastname1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Email: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/username1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Phone: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/phonenumber1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gender: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/gender1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NIN: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/nin1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="DOB: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/dob1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="STATE: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/state1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CITY: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/city1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="LGA: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/lga1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="USER TYPE: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/usertype1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Banking Information"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"/>
+                <LinearLayout
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:background="@drawable/profile_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BVN: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/bvn1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Account Name: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/accountholder1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Account Num: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/accountnumber1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bank Name: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/bankname1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kuda Account: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/kudaactnum1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kuda Track: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/kudatrack1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wallet Id: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/walletid1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SN: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/serialnumber1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+
+                <Button
+                    android:id="@+id/edit_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button_bg"
+                    app:backgroundTint="@null"
+                    android:padding="8dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="EDIT ACCOUNT"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+
+                <Button
+                    android:id="@+id/retry_kuda"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button_bg"
+                    app:backgroundTint="@null"
+                    android:padding="8dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="RETRY KUDA ACCOUNT"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <!--<Button
+                    android:id="@+id/retry_unity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button_bg"
+                    app:backgroundTint="@null"
+                    android:padding="8dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:text="RETRY UNITY ACCOUNT"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

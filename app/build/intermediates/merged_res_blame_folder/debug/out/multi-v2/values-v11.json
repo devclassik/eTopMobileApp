@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aloma\\.gradle\\caches\\transforms-2\\files-2.1\\b133648bf4f2135dd8669156b1c12f02\\jetified-core-0.9.6.0\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,1044",
+                        "endLines": "18,35",
+                        "endColumns": "10,10",
+                        "endOffsets": "1039,2010"
+                    }
+                }
+            ]
+        }
+    ]
+}

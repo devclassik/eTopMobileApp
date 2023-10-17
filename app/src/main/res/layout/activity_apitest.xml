@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sn"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Get SN" />
+
+        <Button
+            android:id="@+id/model"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Get Model" />
+        <Button
+            android:id="@+id/firmware"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Get Firmware" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/install"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Install App" />
+
+        <Button
+            android:id="@+id/uninstall"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Uninstall App" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gpson"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Enable GPS" />
+
+        <Button
+            android:id="@+id/gpsoff"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Disable GPS" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/app1"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Enable App" />
+
+        <Button
+            android:id="@+id/app0"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Disable App" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/launcher1"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Set Default Launcher1" />
+
+        <Button
+            android:id="@+id/launcher2"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Set Default Launcher2" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/isfore"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Is Foreground" />
+
+        <Button
+            android:id="@+id/isnotfore"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Is not Foreground" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/reboot"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Reboot" />
+        <Button
+            android:id="@+id/log"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Get Log File" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/recovery"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Recovery" />
+
+        <Button
+            android:id="@+id/updatefm"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Update Firmware" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sim"
+            style="@style/alert_dialog_dark"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:text="Switch SIM" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text=""
+            android:textSize="18sp" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff0f0f0"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:textColor="#ff000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="请输入持卡人密码"
+        android:textColor="#ff000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/keyboard_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/shape_pwd"
+        android:padding="10dp"
+        android:textColor="#ff000000"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboard_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffd0d0d0"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:keyBackground="@color/colorWhite"
+        android:keyTextColor="#ff000000"
+        android:shadowColor="#fffafafb"
+        android:shadowRadius="0.0" />
+
+</LinearLayout>

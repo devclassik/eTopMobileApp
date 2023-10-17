@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="25%p" android:horizontalGap="3px"
+    android:verticalGap="3px" android:keyHeight="75dp">
+    <Row>
+        <Key android:codes="49" android:keyIcon="@mipmap/number_1" />
+        <Key android:codes="50" android:keyIcon="@mipmap/number_2" />
+        <Key android:codes="51" android:keyIcon="@mipmap/number_3" />
+        <Key android:codes="8" android:keyIcon="@drawable/ic_backspace_black_24dp" />
+        <!-- 		<Key android:codes="57419" android:keyEdgeFlags="right"
+                    android:keyIcon="@drawable/sym_keyboard_left" /> -->
+    </Row>
+    <Row>
+        <Key android:codes="52" android:keyIcon="@mipmap/number_4" />
+        <Key android:codes="53" android:keyIcon="@mipmap/number_5" />
+        <Key android:codes="54" android:keyIcon="@mipmap/number_6" />
+        <Key  android:codes="48" android:keyIcon="@mipmap/number_0"
+            />
+
+    </Row>
+    <Row>
+        <Key android:codes="55" android:keyIcon="@mipmap/number_7" />
+        <Key android:codes="56" android:keyIcon="@mipmap/number_8" />
+        <Key android:codes="57" android:keyIcon="@mipmap/number_9" />
+        <Key android:codes="254" android:keyLabel="Clear" />
+
+    </Row>
+    <Row>
+        <Key
+            android:keyWidth="50%p" android:codes="24" android:keyLabel="Cancel"
+            />
+        <Key
+            android:keyWidth="50%p" android:codes="13" android:keyLabel="Confirm"
+            />
+    </Row>
+</Keyboard>

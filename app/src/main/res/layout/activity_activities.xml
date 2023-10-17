@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".etop.wallet.Activities">
+
+<com.google.android.material.appbar.AppBarLayout
+    android:id="@+id/appBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:title="Wallet Activities" />
+</com.google.android.material.appbar.AppBarLayout>
+
+<LinearLayout
+    android:id="@+id/linearLayout8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+    <Button
+        android:id="@+id/date_picker"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F2F2F2"
+        android:paddingHorizontal="12dp"
+        android:shadowColor="#F2F2F2"
+        android:text="Date Filter"
+        android:textAllCaps="false"
+        android:textColor="#FF7A00"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+</LinearLayout>
+
+<ExpandableListView
+    android:id="@+id/activity_list"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/linearLayout8" />
+
+<TextView
+    android:id="@+id/error_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:padding="15dp"
+    android:text="Select Date Range"
+    android:textSize="20sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/linearLayout8" />
+
+<LinearLayout
+    android:id="@+id/barrier"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.5"
+    android:gravity="center"
+    android:visibility="gone"
+    android:background="#000"
+    android:padding="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:orientation="horizontal" />
+
+<ProgressBar
+    android:id="@+id/loader"
+    style="?android:attr/progressBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:indeterminateTint="#001E89"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/linearLayout8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

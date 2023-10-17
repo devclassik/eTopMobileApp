@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\aloma\\OneDrive\\Documents\\Android NativeApp\\Horizonpay\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\aloma\\.gradle\\caches\\transforms-2\\files-2.1\\b133648bf4f2135dd8669156b1c12f02\\jetified-core-0.9.6.0\\res\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    }
+                }
+            ]
+        }
+    ]
+}

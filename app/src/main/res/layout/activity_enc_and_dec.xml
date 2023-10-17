@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Result Show"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <TextView
+            android:id="@+id/tv_resultShow"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/btn_getPassKey"
+            android:onClick="click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Pass Key"
+            />
+
+        <Button
+            android:id="@+id/btn_getMainKey"
+            android:onClick="click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Main Key"
+            />
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_getWorkKey"-->
+            <!--android:onClick="click"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Load Work Key"-->
+            <!--/>-->
+
+        <Button
+            android:id="@+id/btn_getPinKey"
+            android:onClick="click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Pin key"
+            />
+
+        <Button
+            android:id="@+id/btn_getMacKey"
+            android:onClick="click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Mac key"
+            />
+
+        <Button
+            android:id="@+id/btn_getPinBlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="Calculate PinBlock" />
+
+        <Button
+            android:id="@+id/btn_getMac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="Calculate Mac" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="click"
+            android:text="Clear" />
+    </LinearLayout>
+</LinearLayout>

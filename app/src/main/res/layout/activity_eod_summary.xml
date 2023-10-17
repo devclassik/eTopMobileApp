@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".etop.EodSummary">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        app:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:layout_gravity="center"
+            android:background="@color/light_purple"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:title="Home"
+            app:titleTextColor="@color/dark_purple">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:isScrollContainer="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_gravity="start"
+            android:gravity="center|top"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="50dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/daterange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/textfield_bg"
+                android:hint="DATE RANGE"
+                android:textColorHint="#342815"
+                android:theme="@style/Theme.AppCompat"
+                app:boxStrokeWidth="0dp"
+                app:boxStrokeWidthFocused="0dp"
+                app:hintTextColor="@color/grey">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/transparent"
+                    android:inputType="number"
+                    android:padding="20dp"
+                    android:maxLength="50"
+                    android:textColor="@color/grey"
+                    android:textColorHint="@color/grey"
+                    android:textSize="14sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BREAK DOWN"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PURCHASE"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"/>
+                <LinearLayout
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:background="@drawable/profile_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NUMBER OF TRANSACtIONS: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/purhasecount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TOTAL AMOUNT: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/purchaseamount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TO ACCOUNT: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/purchaseagent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AGENT FEE: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/purchasefee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9ra Point Fee: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/purchase9rapoint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CASH WITHDRAWAL"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"/>
+                <LinearLayout
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:background="@drawable/profile_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NUMBER OF TRANSACtIONS: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/cashoutcount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TOTAL AMOUNT: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/cashoutamount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TO WALLET: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/cashoutagent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AGENT FEE: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/cashoutfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9ra Point Fee: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/cashout9rapoint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TRANSFER"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"/>
+                <LinearLayout
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:background="@drawable/profile_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NUMBER OF TRANSACtIONS: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/transfercount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AMOUNT DEBITED: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/transferamount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AGENT AMOUNT: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/transferagent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AGENT FEE: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/transferfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9ra Point Fee: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/transfer9rapoint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BILLS PAYMENT"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="14sp"/>
+                <LinearLayout
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="10dp"
+                    android:background="@drawable/profile_item"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NUMBER OF TRANSACtIONS: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/billscount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TOTAL AMOUNT: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/billsamount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AGENT COMMISSION: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/billsagent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="AGENT FEE: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/billsfee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginVertical="10dp"
+                        android:background="@drawable/trans_detail_bg"
+                        android:paddingVertical="15dp"
+                        android:paddingHorizontal="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="9ra Point Fee: "
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                        <View
+                            android:layout_width="5dp"
+                            android:layout_height="8dp"
+                            android:layout_weight="1" />
+                        <TextView
+                            android:id="@+id/bills9rapoint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

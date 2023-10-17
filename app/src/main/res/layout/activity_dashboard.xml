@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_purple"
+    tools:context=".etop.Dashboard">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:gravity="center|top"
+        android:paddingBottom="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:id="@+id/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/picture"
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/rect"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginHorizontal="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"
+                    android:textColor="@color/dark_purple"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:id="@+id/walletid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Agent ID: 0012"
+                    android:textColor="@color/dark_purple"
+                    android:textSize="14sp"/>
+                <TextView
+                    android:id="@+id/kudaid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kuda ID: 0012"
+                    android:textColor="@color/dark_purple"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/ImageView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:src="@drawable/messages" />
+
+                <TextView
+                    android:id="@+id/ImageViewText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/ImageView"
+                    android:layout_alignTop="@id/ImageView"
+                    android:layout_alignRight="@id/ImageView"
+                    android:layout_alignBottom="@id/ImageView"
+                    android:text="0"
+                    android:textSize="14sp"
+                    android:textColor="@color/dark_purple"
+                    android:gravity="center"
+                />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/messages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 New Message"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:textSize="8sp"/>
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.00"
+            android:textStyle="bold"
+            android:textColor="@color/dark_purple"
+            android:textSize="32sp"/>
+        <!--<TextView
+            android:id="@+id/busname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9RA POINT AGENCY"
+            android:textColor="@color/dark_purple"
+            android:textSize="14sp"/>-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/white_rounded_top_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        android:orientation="vertical">
+        <LinearLayout
+            android:background="#F8F8F8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <GridView
+                android:id="@+id/dash_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:scrollbarStyle="outsideOverlay"
+                android:clipToPadding="false"
+                android:numColumns="3"
+                android:paddingLeft="30dp"
+                android:paddingTop="30dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="40dp"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="20dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
